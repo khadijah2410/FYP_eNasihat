@@ -1,0 +1,127 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #e3e8ec;
+}
+
+.wrapper {
+    display: flex;
+    min-height: 100%;
+}
+
+.container.bootstrap.snippets.bootdey {
+    flex: 1;
+    margin-top: 4rem;
+}
+
+
+.main-box {
+    background: #FFFFFF;
+    -webkit-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    -moz-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    -o-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    -ms-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    box-shadow: 1px 1px 2px 0 #CCCCCC;
+    margin-bottom: 16px;
+    -webikt-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.table a.table-link.danger {
+    color: #e74c3c;
+}
+.label {
+    border-radius: 3px;
+    font-size: 0.875em;
+    font-weight: 600;
+}
+.user-list tbody td .user-subhead {
+    font-size: 0.875em;
+    
+}
+.user-list tbody td>img {
+    position: relative;
+    max-width: 50px;
+    float: left;
+    margin-right: 15px;
+}
+
+.table thead tr th {
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+.table thead tr th {
+    border-bottom: 2px solid #e7ebee;
+}
+.table tbody tr td:first-child {
+    font-size: 1.125em;
+    font-weight: 300;
+}
+
+a:hover{
+text-decoration:none;
+}
+
+.table tbody tr td {
+    font-size: 1em; /* Change the value to adjust the font size */
+}
+
+.user-subhead {
+    font-size: 1.3em; /* Change the value to adjust the font size */
+}
+
+.label.bg-blue {
+    background-color: #528aae;
+    color: white;
+    padding: 3px 2px; /* Set text color for better readability */
+}
+
+.label.bg-green {
+    background-color: green;
+    color: white;
+    padding: 3px 2px; /* Set text color for better readability */
+}
+
+
+  /* Style for the button */
+  .table-link button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  @media (max-width: 767px) {
+    #sidebar {
+        width: 100%; 
+      }
+    
+      .table-responsive {
+        margin-right: 0; 
+        overflow-x: scroll; 
+      }
+    
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Adjust styles for tablets */
+    #sidebar {
+      width: 250px; /* Restore the original width for the sidebar on tablets */
+    }
+  
+    .table-responsive {
+      margin-right: 30px; /* Restore the original right margin for the table on tablets */
+      overflow-x: auto; /* Add horizontal scroll if needed */
+    }
+
+  }
+  
+  
+
+  

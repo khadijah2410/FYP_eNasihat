@@ -1,0 +1,88 @@
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #E3E8EC;
+    background-repeat: no-repeat;
+}
+
+.card {
+    
+    border: none !important;
+    width: 550px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 300px;
+    }
+
+}
+.card-strip {
+    border-bottom: 1px solid lightgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sm-text {
+    font-size: 15px;
+}
+
+
+.fa-comment-o {
+    color: gray;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.time {
+    border: 1px lightgray solid;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 1px 8px;
+    margin: 0px 6px;
+}
+
+
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0;
+}
+
+.btn {
+    width: 48%;
+    height: 55px;
+    margin: 20px 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #000;
+    border: 1px gray solid;
+    width: 50%;
+    height: fit-content;
+}
+
+.btn-white:hover {
+    background-color: lightgray;
+    color: #000;
+} 
+
+.btn-purple {
+    background-color: #7e94a1;
+    color: #fff;
+    border: 1px #7e94a1 solid;
+    width: 50%;
+    height: fit-content;
+}
+
+.btn-purple:hover {
+    background-color: #8d98aa;
+    color: #fff;
+}

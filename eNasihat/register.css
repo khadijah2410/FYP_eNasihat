@@ -1,0 +1,61 @@
+body {
+    background-color: #e3e8ec !important;
+  }
+  
+  .container {
+    height: 100vh;
+  }
+  
+  .card {
+    width: 100%;
+    padding: 30px;
+  }
+  
+  .form {
+    padding: 20px;
+  }
+  
+  .form-control {
+    height: 50px;
+    background-color: #eee;
+  }
+  
+  .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #f50057;
+    outline: 0;
+    box-shadow: none;
+    background-color: #eee;
+  }
+  
+  .inputbox {
+    margin-bottom: 15px;
+  }
+  
+  .register {
+    margin-top: 10px;
+    height: 40px;
+  }
+
+  #daftar_btn{
+   background-color:  #7E94A1;
+   border-color: #7E94A1;
+   width: 150px;
+  }
+  
+  
+  
+  .login {
+    color: #1261a0;
+    text-decoration: none;
+  }
+  
+  .login:hover {
+    color: #3895d3;
+    text-decoration: none;
+  }
+  
+  
+  
+  

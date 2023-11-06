@@ -1,0 +1,88 @@
+body{
+    background: #e3e8ec;
+    }
+
+
+.bg-light-blue {
+    background-color: #e3e8ec !important;
+    color: #8d98aa;
+    padding: 7px 18px;
+    border-radius: 4px;
+}
+
+.buttons-to-right {
+    position: absolute;
+    right: 0;
+    top: 40%;
+}
+
+.btn-gray {
+    color: #666;
+    background-color: #eee;
+    padding: 7px 18px;
+    border-radius: 4px;
+}
+
+.btn-gray:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.booking {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 30px;
+}
+
+.booking:last-child {
+    margin-bottom: 0px;
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+@media (min-width: 576px) {
+    .mb-sm-5,
+    .my-sm-5 {
+        margin-bottom: 3rem!important;
+    }
+}
+
+.card {
+    margin-bottom: 20px; /* Adjust this value as needed */
+    background-color: #fff;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    box-shadow: none;
+    border: none;
+    padding: 25px;
+}
+.col-md-12{
+    margin-top: 4rem;
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 3rem!important;
+}
+
+.msg-img img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+    .booking {
+        padding: 15px; /* Adjust padding as needed for smaller screens */
+    }
+
+    .col-md-12 {
+        margin-top: 2rem; /* Adjust margin as needed for smaller screens */
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-12 {
+        margin-top: 3rem; /* Adjust margin as needed for larger screens */
+    }
+}
